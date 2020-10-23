@@ -49,11 +49,10 @@
                 </div>
                 <div id="navigation">
                     <ul id="nav">
-                        <li><asp:HyperLink ID="HyperLink1" runat="server">WebShop</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="HyperLink1" runat="server">Web Menu</asp:HyperLink></li>
                         <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/About.aspx">About Us</asp:HyperLink></li>
                         <li><asp:HyperLink ID="HyperLink3" runat="server">Reports</asp:HyperLink></li>
-                        <li><asp:HyperLink ID="HyperLink4" runat="server">Management</asp:HyperLink></li>
-                        <li><asp:HyperLink ID="HyperLink5" runat="server">Log in</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Management.aspx">Management</asp:HyperLink></li>
                     </ul>
                 </div>
                 <div id="content">

@@ -233,7 +233,7 @@
       <DependentUpon>Model.edmx</DependentUpon>
       <LastGenOutput>Model.cs</LastGenOutput>
     </Content>
-    <Content Include="Resources\banner_image.jpg" />
+    <Content Include="Resources\BannerGHC.png" />
     <Content Include="Resources\Main Logo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

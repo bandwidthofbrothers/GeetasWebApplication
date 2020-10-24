@@ -19,8 +19,10 @@ namespace GeetasWebApplication
         {            
             MenuItem menuItem = new MenuItem();
 
-            menuItem.MenuItemName = txtName.Text;
+            menuItem.MenuItemName = txtName.Text;            
+            menuItem.Category = txtCategory.Text;
             menuItem.MenuItemPrice = Convert.ToDecimal(txtPrice.Text);
+            menuItem.CurrentMenuItem = Convert.ToByte(DDL1.SelectedValue);
 
             return menuItem;
         }

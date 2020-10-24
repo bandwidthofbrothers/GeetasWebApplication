@@ -217,7 +217,7 @@
       <LastGenOutput>Model.Designer.cs</LastGenOutput>
     </EntityDeploy>
     <Content Include="Management.aspx" />
-    <Content Include="ManageMenuItems.aspx" />
+    <Content Include="AddMenuItem.aspx" />
     <Content Include="MenuPage.aspx" />
     <Content Include="Model.edmx.diagram">
       <DependentUpon>Model.edmx</DependentUpon>
@@ -264,7 +264,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Default.aspx" />
+    <Content Include="HomePage.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
@@ -410,12 +410,12 @@
     <Compile Include="CustomerOrder.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -428,11 +428,11 @@
       <DependentUpon>Management.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManageMenuItems.aspx.cs">
-      <DependentUpon>ManageMenuItems.aspx</DependentUpon>
+      <DependentUpon>AddMenuItem.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ManageMenuItems.aspx.designer.cs">
-      <DependentUpon>ManageMenuItems.aspx</DependentUpon>
+      <DependentUpon>AddMenuItem.aspx</DependentUpon>
     </Compile>
     <Compile Include="MenuItem.cs">
       <DependentUpon>Model.tt</DependentUpon>
@@ -495,6 +495,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Pages\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

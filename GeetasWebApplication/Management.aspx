@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Management.aspx.cs" Inherits="GeetasWebApplication.Management" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:LinkButton ID="LinkButton1" runat="server" CssClass="btn" PostBackUrl="~/ManageMenuItems.aspx">Add New Item</asp:LinkButton>
+    <asp:LinkButton ID="LinkButton1" runat="server" CssClass="btn" PostBackUrl="~/AddMenuItem.aspx" OnClick="LinkButton1_Click">Add New Item</asp:LinkButton>
     <asp:GridView ID="gvMenuItems" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#CC9966" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="MenuItemID" DataSourceID="SqlDataSource1" EmptyDataText="There are no data records to display." Height="385px" Width="100%">
         <Columns>
             <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />

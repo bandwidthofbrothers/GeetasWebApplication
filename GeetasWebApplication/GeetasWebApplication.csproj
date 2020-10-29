@@ -216,8 +216,9 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Management.aspx" />
-    <Content Include="AddMenuItem.aspx" />
+    <Content Include="Management\Management.aspx" />
+    <Content Include="Management\AddMenuItem.aspx" />
+    <Content Include="MenuItem.aspx" />
     <Content Include="MenuPage.aspx" />
     <Content Include="Model.edmx.diagram">
       <DependentUpon>Model.edmx</DependentUpon>
@@ -420,19 +421,26 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Management.aspx.cs">
+    <Compile Include="Management\Management.aspx.cs">
       <DependentUpon>Management.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Management.aspx.designer.cs">
+    <Compile Include="Management\Management.aspx.designer.cs">
       <DependentUpon>Management.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ManageMenuItems.aspx.cs">
+    <Compile Include="Management\ManageMenuItems.aspx.cs">
       <DependentUpon>AddMenuItem.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ManageMenuItems.aspx.designer.cs">
+    <Compile Include="Management\ManageMenuItems.aspx.designer.cs">
       <DependentUpon>AddMenuItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuItem.aspx.cs">
+      <DependentUpon>MenuItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuItem.aspx.designer.cs">
+      <DependentUpon>MenuItem.aspx</DependentUpon>
     </Compile>
     <Compile Include="MenuItem.cs">
       <DependentUpon>Model.tt</DependentUpon>

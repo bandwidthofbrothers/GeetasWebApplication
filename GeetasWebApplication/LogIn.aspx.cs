@@ -18,5 +18,10 @@ namespace GeetasWebApplication
         {
 
         }
+
+        protected void RegisterFormView_PageIndexChanging(object sender, FormViewPageEventArgs e)
+        {
+
+        }
     }
 }

@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     
 
-  <p><asp:FormView id="RegisterFormView" allowpaging="true" datakeynames="E-mail" runat="server" OnPageIndexChanging="RegisterFormView_PageIndexChanging"></asp:FormView></p> 
+  <p>&nbsp;</p> 
     <p>E-mail</p>
     <p> <asp:TextBox ID="EmailTxt" runat="server" Width="244px"></asp:TextBox></p>
    

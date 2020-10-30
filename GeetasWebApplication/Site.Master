@@ -53,7 +53,7 @@
                         <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/About.aspx">About Us</asp:HyperLink></li>
                         <li><asp:HyperLink ID="HyperLink3" runat="server">Reports</asp:HyperLink></li>
                         <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Management.aspx">Management</asp:HyperLink></li>
-                        <li><asp:HyperLink ID="Hyperlink5" runat="server" NavigateUrl="~/LogIn.aspx">Log in</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="Hyperlink5" runat="server" NavigateUrl="~/Login.aspx">Log in</asp:HyperLink></li>
                     </ul>
                 </div>
                 <div id="content">

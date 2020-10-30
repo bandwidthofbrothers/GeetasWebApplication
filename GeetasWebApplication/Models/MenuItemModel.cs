@@ -65,5 +65,40 @@ namespace GeetasWebApplication.Models
                 return "Error:" + e;
             }
         }
+
+        public MenuItem GetMenuItem(int id)
+        {
+            try
+            {
+                using (group22Entities db = new group22Entities())
+                {
+                    MenuItem menuItem = db.MenuItems.Find(id);
+                    return menuItem;
+                }
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+
+        public List<MenuItem>GetAllMenuItems()
+        {
+            try
+            {
+                using (group22Entities db = new group22Entities())
+                {
+                    List<MenuItem> menuItems = (from x in db.MenuItems
+                                                select x).ToList();
+
+                    return menuItems;
+                }
+            }
+            catch (Exception)
+            {
+
+                return null; 
+            }
+        }
     }
 }

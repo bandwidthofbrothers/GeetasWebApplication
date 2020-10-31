@@ -2,12 +2,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     
 
-  <p><asp:FormView id="RegisterFormView" allowpaging="true" datakeynames="E-mail" runat="server" OnPageIndexChanging="RegisterFormView_PageIndexChanging"></asp:FormView></p> 
+  <p>&nbsp;</p> 
     <p>E-mail</p>
     <p> <asp:TextBox ID="EmailTxt" runat="server" Width="244px"></asp:TextBox></p>
    
    <p>Password</p>
-    <p><asp:TextBox ID="passwordTxt" runat="server" Width="244px"></asp:TextBox></p>
+    <p>
+        <input id="Password1" type="password" /></p>
    <p><asp:Button ID="loginBtn" runat="server" Text="Login" OnClick="loginBtn_Click"></asp:Button></p>  
          
         <p>Not registered yet? Sign up here</p>
@@ -19,6 +20,9 @@
         <p><asp:TextBox ID="cellTxt" runat="server" Width="244px"></asp:TextBox></p>
         <p>Address</p>
         <p><asp:TextBox ID="addressTxt" runat="server" Width="244px"></asp:TextBox></p>
+    <p>Password</p>
+    <p>
+        <input id="Text1" type="text" /></p>
     <p><asp:Button ID="RegisterBtn" runat="server" Text="Register" OnClick="RegisterBtn_Click"></asp:Button></p>
 
 

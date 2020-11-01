@@ -13,5 +13,15 @@ namespace GeetasWebApplication
         {
 
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("MenuPage.aspx");
+        }
+
+        protected void ImageButton3_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("https://www.facebook.com/manahshomemade.curries");
+        }
     }
 }

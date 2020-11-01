@@ -6,7 +6,7 @@
                 <asp:Image ID="Image1" runat="server" CssClass="detailsImage" /></td>
             <td><h2>
                 <asp:Label ID="lblTitle" runat="server" Text="Label"></asp:Label>
-                <br/>
+                
                 </h2></td>
         </tr>
         
@@ -17,7 +17,7 @@
                 <asp:Label ID="lblprice" runat="server" CssClass="detailsPrice"></asp:Label>
             </td>
             
-            Quantity: <asp:DropDownList ID="ddlAmount" runat="server"></asp:DropDownList>
+                 <asp:DropDownList ID="ddlAmount" runat="server"></asp:DropDownList>
             
             <asp:Label ID="lblResult" runat="server" Text=""></asp:Label>
         

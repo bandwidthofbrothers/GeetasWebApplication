@@ -236,10 +236,27 @@
       <LastGenOutput>Model.cs</LastGenOutput>
     </Content>
     <Content Include="Resources\BannerGHC.png" />
+    <None Include="Resources\Briyani_Icon.jpg" />
+    <None Include="Resources\BunnyChowIcon.jpg" />
+    <None Include="Resources\Chutney_Icon.jpg" />
+    <None Include="Resources\ColdDrinks_Icon.jpg" />
+    <None Include="Resources\Curries_Icon.jpg" />
+    <None Include="Resources\Dishes_Icon.jpg" />
+    <None Include="Resources\Drinks_Icon.jpg" />
+    <None Include="Resources\Extras_Icon.jpg" />
     <Content Include="Resources\facebook.png" />
+    <None Include="Resources\HotDrinks_Icon.jpg" />
     <Content Include="Resources\instagram.png" />
     <Content Include="Resources\Main Logo.png" />
+    <None Include="Resources\NonVegCurries_Icon.jpg" />
+    <None Include="Resources\NonVegDishes_Icon.jpg" />
+    <None Include="Resources\Pasta_Icon.jpg" />
     <Content Include="Resources\phone.png" />
+    <None Include="Resources\Regulars_Icon.jpg" />
+    <None Include="Resources\RotiRoll_Icon.jpg" />
+    <None Include="Resources\ToastedSandwiches_Icon.jpg" />
+    <None Include="Resources\VegCurries_Icon.jpg" />
+    <None Include="Resources\VegDishes_Icon.jpg" />
     <Content Include="Resources\whatsapp.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -476,6 +493,11 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\MenuItemModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -505,6 +527,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

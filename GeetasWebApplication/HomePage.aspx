@@ -6,7 +6,7 @@
         <h1>Hungry???</h1>
         <br /><br />
 
-        <p class="lead" style="font-family: 'Californian FB'; font-size: 33px">&nbsp;Look at the Menu</p>
+        <p class="lead" style="font-family: 'Californian FB'; font-size: 33px; width: 999px;">&nbsp;Look at the Menu</p>
         <p>
             <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Menu" />
         </p>

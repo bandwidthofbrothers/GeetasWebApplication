@@ -13,6 +13,15 @@ namespace GeetasWebApplication {
     public partial class SiteMaster {
         
         /// <summary>
+        /// ContentPlaceHolder1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        
+        /// <summary>
         /// Image1 control.
         /// </summary>
         /// <remarks>
@@ -85,12 +94,12 @@ namespace GeetasWebApplication {
         protected global::System.Web.UI.WebControls.HyperLink Hyperlink5;
         
         /// <summary>
-        /// MainContent control.
+        /// content1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder content1;
     }
 }

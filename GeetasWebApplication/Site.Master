@@ -16,6 +16,11 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <link rel="stylesheet" href="/Content/Site.css" type="text/css" />
+                    </asp:ContentPlaceHolder>
+
+
 </head>
 <body>
     <form runat="server">
@@ -54,14 +59,9 @@
                         <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/About.aspx">About Us</asp:HyperLink></li>
                         <li><asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Contact.aspx">Contact Us</asp:HyperLink></li>
                         <li><asp:HyperLink ID="HyperLink3" runat="server">Reports</asp:HyperLink></li>
-                        <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Management.aspx">Management</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Management/Management.aspx">Management</asp:HyperLink></li>
                         <li><asp:HyperLink ID="Hyperlink5" runat="server" NavigateUrl="~/Login.aspx">Log in</asp:HyperLink></li>
                     </ul>
-                </div>
-                <div id="content">
-                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
-                        <link rel="stylesheet" href="/Content/site.css" type="text/css" />
-                    </asp:ContentPlaceHolder></div>
                 </div>
 
         
